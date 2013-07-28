@@ -20,8 +20,5 @@
     "jade": "*"
   },
   "bundleDependencies":["webinos-api-test"],
-  "preferGlobal": true,
-  "bin": {
-    "webinos_pzh": "webinos_pzh.js"
-  }
+  "preferGlobal": true
 }
