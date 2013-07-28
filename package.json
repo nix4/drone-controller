@@ -1,0 +1,27 @@
+{ "name": "drone-controller",
+  "version": "0.1.0",
+  "description": "An interface fro controlling AR drone",
+  "main": "./index.js",
+  "author": "Cornelius Namiluko  <corni6x@gmail.com>",
+  "repositories":{
+     "type": "git",
+     "url": "git://github.com/webinos/webinos-pzh.git"
+   },
+  "bugs": "http://jira.webinos.org",
+  "directories": {
+    "lib": "./lib",
+    "test":"./test",
+    "web":"./web"
+  },
+  "dependencies":{
+    "dronestream": "*",
+    "ar-drone" : "0.1.0",
+    "express": "3.3.4",
+    "jade": "*"
+  },
+  "bundleDependencies":["webinos-api-test"],
+  "preferGlobal": true,
+  "bin": {
+    "webinos_pzh": "webinos_pzh.js"
+  }
+}
